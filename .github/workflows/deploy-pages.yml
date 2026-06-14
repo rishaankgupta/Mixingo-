@@ -40,11 +40,8 @@ jobs:
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-<<<<<<< HEAD
-=======
         with:
           enablement: true
->>>>>>> origin/main
 
       - name: Upload production artifact
         uses: actions/upload-pages-artifact@v3
