@@ -57,7 +57,7 @@ if (waitlistForm) {
     waitlistForm.querySelector('.form-success')?.focus();
   });
 }
-=======
+
   entries.forEach((entry) => entry.isIntersecting && entry.target.classList.add('visible'));
 }, { threshold: 0.12 });
 document.querySelectorAll('.reveal, .feature, .compare, .plans article').forEach(el => {
