@@ -1,5 +1,4 @@
 import { defineConfig } from 'vite';
-<<<<<<< HEAD
 import { resolve } from 'node:path';
 
 export default defineConfig({
@@ -18,5 +17,5 @@ export default defineConfig({
 
 export default defineConfig({
   base: './',
->>>>>>> origin/main
+
 });
