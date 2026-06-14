@@ -1,5 +1,4 @@
 const observer = new IntersectionObserver((entries) => {
-<<<<<<< HEAD
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.add('visible');
