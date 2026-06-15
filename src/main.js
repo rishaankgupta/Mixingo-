@@ -77,4 +77,4 @@ document.querySelector('#translateBtn').addEventListener('click', () => {
 document.querySelector('#copy').addEventListener('click', async (e) => { await navigator.clipboard?.writeText(document.querySelector('#result').textContent); e.currentTarget.textContent = '✓'; setTimeout(() => e.currentTarget.textContent = '▢', 1200); });
 document.querySelectorAll('.toggle button').forEach(btn => btn.addEventListener('click', () => { document.querySelectorAll('.toggle button').forEach(b => b.classList.remove('active')); btn.classList.add('active'); }));
 document.querySelectorAll('.accordion details').forEach(item => item.addEventListener('toggle', () => { if(item.open) document.querySelectorAll('.accordion details').forEach(other => { if(other !== item) other.open = false; }); }));
->>>>>>> origin/main
+
