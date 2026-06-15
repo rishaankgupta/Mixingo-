@@ -57,14 +57,6 @@ if (waitlistForm) {
     waitlistForm.querySelector('.form-success')?.focus();
   });
 }
-
-  entries.forEach((entry) => entry.isIntersecting && entry.target.classList.add('visible'));
-}, { threshold: 0.12 });
-document.querySelectorAll('.reveal, .feature, .compare, .plans article').forEach(el => {
-  el.classList.add('reveal'); observer.observe(el);
-});
-const glow = document.querySelector('.cursor-glow');
-window.addEventListener('pointermove', e => { glow.style.left = `${e.clientX}px`; glow.style.top = `${e.clientY}px`; });
 const source = document.querySelector('#source');
 const count = document.querySelector('.char-count');
 source.addEventListener('input', () => count.textContent = `${source.value.length} / 1,000`);
